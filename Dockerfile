@@ -2,4 +2,4 @@ FROM alpine
 
 WORKDIR /data
 
-COPY . .
+COPY ./upx /bin
